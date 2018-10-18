@@ -1,0 +1,10 @@
+<section class="form">
+    <h1 class="title">My Thoughts</h1>
+    <span class="button"><button ng-click="$ctrl.addText()" class="thoughts">New Thoughts</button></span>
+    <section>
+        <ul>
+            <post ng-repeat="think in $ctrl.thoughts" item = "think"></post>
+        </ul>
+    </section>
+</section>
+<other ng-if="$ctrl.show === true" on-submit="$ctrl.addPost"></other>

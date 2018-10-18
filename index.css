@@ -1,0 +1,89 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.form {
+    background: rgb(216, 213, 213);
+    width: 470px;
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+}
+
+.title{
+    color: rgb(64, 173, 224);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+}
+
+.thoughts {
+    border-radius: 8px;
+    background: white;
+    height: 30px;
+    border: 1px solid black;
+    width: 380px;
+}
+
+li {
+    list-style-type: none;
+    border-bottom: 1px solid black;
+    width: 92%;
+}
+
+.list {
+    display: flex;
+}
+
+.delete {
+    float: right;
+    background: none;
+    border: none;
+}
+
+form {
+    background-color: rgb(89, 190, 230);
+    border-radius: 5px;
+    border: 1px solid black;
+    padding-left: 15%;
+}
+
+.addThought {
+    width: 80%;
+    height: 145px;
+}
+
+.addPost {
+    display: flex;
+    border-radius: 8px;
+    background: white;
+    height: 30px;
+    border: 1px solid black;
+    width: 380px;
+    justify-content: center;
+}
+
+section {
+    background-color: white;
+    border: 1px solid black;
+    margin: 40px;
+    height: 308px;
+    border-radius: 2%;
+}
+
+.think{
+    border-radius: 8px;
+    background: white;
+    height: 30px;
+    border: 1px solid black;
+    width: 380px;
+}
